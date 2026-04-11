@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		0671C6A42F53350200B7870E /* naosei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = naosei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0671C6A42F53350200B7870E /* mp6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mp6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		0671C6A62F53350200B7870E /* naosei */ = {
+		0671C6A62F53350200B7870E /* mp6 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = naosei;
+			path = mp6;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		0671C69B2F53350200B7870E = {
 			isa = PBXGroup;
 			children = (
-				0671C6A62F53350200B7870E /* naosei */,
+				0671C6A62F53350200B7870E /* mp6 */,
 				0671C6A52F53350200B7870E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		0671C6A52F53350200B7870E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0671C6A42F53350200B7870E /* naosei.app */,
+				0671C6A42F53350200B7870E /* mp6.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0671C6A32F53350200B7870E /* naosei */ = {
+		0671C6A32F53350200B7870E /* mp6 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0671C6B12F53350300B7870E /* Build configuration list for PBXNativeTarget "naosei" */;
+			buildConfigurationList = 0671C6B12F53350300B7870E /* Build configuration list for PBXNativeTarget "mp6" */;
 			buildPhases = (
 				0671C6A02F53350200B7870E /* Sources */,
 				0671C6A12F53350200B7870E /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				0671C6A62F53350200B7870E /* naosei */,
+				0671C6A62F53350200B7870E /* mp6 */,
 			);
-			name = naosei;
+			name = mp6;
 			packageProductDependencies = (
 			);
 			productName = naosei;
-			productReference = 0671C6A42F53350200B7870E /* naosei.app */;
+			productReference = 0671C6A42F53350200B7870E /* mp6.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0671C69F2F53350200B7870E /* Build configuration list for PBXProject "naosei" */;
+			buildConfigurationList = 0671C69F2F53350200B7870E /* Build configuration list for PBXProject "mp6" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0671C6A32F53350200B7870E /* naosei */,
+				0671C6A32F53350200B7870E /* mp6 */,
 			);
 		};
 /* End PBXProject section */
@@ -315,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0671C69F2F53350200B7870E /* Build configuration list for PBXProject "naosei" */ = {
+		0671C69F2F53350200B7870E /* Build configuration list for PBXProject "mp6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0671C6AF2F53350300B7870E /* Debug */,
@@ -324,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0671C6B12F53350300B7870E /* Build configuration list for PBXNativeTarget "naosei" */ = {
+		0671C6B12F53350300B7870E /* Build configuration list for PBXNativeTarget "mp6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0671C6B22F53350300B7870E /* Debug */,

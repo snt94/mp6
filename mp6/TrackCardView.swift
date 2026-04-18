@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MusicCardView: View {
+struct TrackCardView: View {
     
     var tracks: [Track]
     
@@ -52,8 +52,8 @@ struct MusicCardView: View {
 
     ScrollView {
         VStack(spacing: 12) {
-            ForEach(0...20, id: mockTracks) { track in
-                MusicCardView(tracks: mockTracks)
+            ForEach(0...20, id: \.self) { index in
+                TrackCardView(tracks: [mockTracks[index % mockTracks.count]])
             }
         }
         .padding()

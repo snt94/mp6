@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		06764D382F93D0FA005F19EF /* SpotifyiOS in Frameworks */ = {isa = PBXBuildFile; productRef = 06764D372F93D0FA005F19EF /* SpotifyiOS */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		0671C6A42F53350200B7870E /* mp6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mp6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06764D382F93D0FA005F19EF /* SpotifyiOS in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = mp6;
 			packageProductDependencies = (
+				06764D372F93D0FA005F19EF /* SpotifyiOS */,
 			);
 			productName = naosei;
 			productReference = 0671C6A42F53350200B7870E /* mp6.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 0671C69B2F53350200B7870E;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				06764D362F93D0FA005F19EF /* XCLocalSwiftPackageReference "../ios-sdk-master" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 0671C6A52F53350200B7870E /* Products */;
 			projectDirPath = "";
@@ -334,6 +343,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		06764D362F93D0FA005F19EF /* XCLocalSwiftPackageReference "../ios-sdk-master" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../ios-sdk-master";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		06764D372F93D0FA005F19EF /* SpotifyiOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SpotifyiOS;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0671C69C2F53350200B7870E /* Project object */;
 }

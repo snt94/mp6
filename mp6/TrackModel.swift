@@ -8,11 +8,16 @@
 import Foundation
 import SwiftUI
 
-struct Track {
-    let id: UUID
-    var name: String
-    var artist: String
-    var album: String
-    var cover: Image
-    var fromNetwork: Bool = false
+struct Track: Identifiable {
+    let id: String
+    let name: String
+    let artist: String
+    let duration: String
+}
+
+func formatDuration(_ ms: Int) -> String {
+    let totalSeconds = ms / 1000
+    let minutes = totalSeconds / 60
+    let seconds = totalSeconds % 60
+    return String(format: "%02d:%02d", minutes, seconds)
 }

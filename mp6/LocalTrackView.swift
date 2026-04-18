@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LocalTrackView: View {
     var body: some View {
-        Text("Tela local!")
+        MusicLibraryView()
     }
 }
 

@@ -1,9 +1,16 @@
+//
+//  MusicScannerService.swift
+//  mp6
+//
+//  Created by iOSLab on 18/04/26.
+//
+
+
 import Foundation
 import AVFoundation
 
 class MusicScannerService {
-
-    // Extensões suportadas
+    
     private let supportedExtensions = ["mp3", "m4a", "aac", "wav", "flac", "aiff"]
 
     /// Varre uma pasta e retorna os arquivos de música encontrados
@@ -43,11 +50,10 @@ class MusicScannerService {
     private func extractMetadata(from url: URL) async -> MusicFile? {
         let asset = AVURLAsset(url: url)
 
-        // Tamanho do arquivo
         let fileSize = (try? url.resourceValues(forKeys: [.fileSizeKey]).fileSize)
             .flatMap { Int64($0) } ?? 0
 
-        // Duração
+
         let duration: TimeInterval
         do {
             let cmDuration = try await asset.load(.duration)
@@ -56,7 +62,7 @@ class MusicScannerService {
             duration = 0
         }
 
-        // Metadados (título, artista, álbum)
+
         var title = url.deletingPathExtension().lastPathComponent
         var artist = "Desconhecido"
         var album = "Desconhecido"
@@ -76,7 +82,7 @@ class MusicScannerService {
                     break
                 }
             }
-        } catch { /* usa os valores padrão */ }
+        } catch { }
 
         return MusicFile(
             url: url,

@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct naoseiApp: App {
+struct mp6App: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
